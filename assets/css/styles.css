@@ -313,13 +313,6 @@ img {
   color: #fff;
 }
 
-.home__social::after {
-  content: '';
-  width: 32px;
-  height: 2px;
-  background-color: var(--first-color);
-  transform: rotate(90deg) translate(16px, 3px);
-}
 
 .home__scroll {
   color: var(--first-color);
@@ -462,7 +455,7 @@ img {
 
 .skills__level {
   font-size: var(--tiny-font-size);
-
+  display: none;
 }
 
 /*=============== SERVICES ===============*/
@@ -549,7 +542,7 @@ img {
 .services__modal-item {
   display: flex;
   align-items: flex-start;
-  column-gap: .5rem;
+  column-gap: .4rem;
 }
 
 .services__modal-icon {
@@ -559,6 +552,7 @@ img {
 
 .services__modal-info {
   font-size: var(--small-font-size);
+  margin-top: 3px;
 }
 
 .services__modal-close {
