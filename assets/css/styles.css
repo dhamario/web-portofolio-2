@@ -684,13 +684,13 @@ body.light-theme{
   width: max-content;
   color: var(--first-color);
   font-size: var(--small-font-size);
-  display: flex;
+  
   align-items: center;
   column-gap: .25rem;
 }
 
 .work__button .icon__home{
-  margin-left: 14rem;
+  float: right !important;
   color: var(--first-color);
   font-size: 1.8rem;
 }
